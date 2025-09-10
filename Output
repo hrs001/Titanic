@@ -1,0 +1,35 @@
+Gradient Accuracy: 0.8268156424581006
+              precision    recall  f1-score   support
+
+           0       0.84      0.88      0.86       105
+           1       0.81      0.76      0.78        74
+
+    accuracy                           0.83       179
+   macro avg       0.82      0.82      0.82       179
+weighted avg       0.83      0.83      0.83       179
+
+Fitting 5 folds for each of 20 candidates, totalling 100 fits
+Best Parameters (RandomizedSearch): {'subsample': 0.8, 'n_estimators': 200, 'min_samples_split': 4, 'min_samples_leaf': 4, 'max_depth': 3, 'learning_rate': 0.05}
+Best Score: 0.8370629370629372
+Gradient Boosting Accuracy: 0.8156424581005587
+              precision    recall  f1-score   support
+
+           0       0.83      0.87      0.85       105
+           1       0.80      0.74      0.77        74
+
+    accuracy                           0.82       179
+   macro avg       0.81      0.80      0.81       179
+weighted avg       0.81      0.82      0.81       179
+
+     PassengerId  Survived
+0            892         0
+1            893         0
+2            894         0
+3            895         0
+4            896         0
+..           ...       ...
+413         1305         0
+414         1306         1
+415         1307         0
+416         1308         0
+417         1309         0
